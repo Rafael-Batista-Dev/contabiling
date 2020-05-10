@@ -15,8 +15,8 @@ export default class Index extends Component {
         <Home />
         <Trabalhos />
         <Portfolio />
-        <Resumo />
         <Sobre />
+        <Resumo />
         <RedesSociais />
         <Footer />
       </div>
