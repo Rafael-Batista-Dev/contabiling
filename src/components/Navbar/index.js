@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "./style.js";
-
-import styled from "styled-components";
 import {
   NavbarSection,
   Logo,
@@ -18,7 +15,7 @@ const NavBar = () => {
     <NavbarSection>
       <div className="container">
         <Logo>
-          <LogoText>Ultra Profile</LogoText>
+          <LogoText>Exitus Contabilidade</LogoText>
         </Logo>
 
         <UlList>
