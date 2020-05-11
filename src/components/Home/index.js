@@ -21,7 +21,7 @@ const Home = () => {
             O maior escritório contábil <HomeSpan> do Brasil </HomeSpan>{" "}
             ajudando a impulsionar o crescimento da sua empresa
           </HomeDesc>
-          <HomeBtn>Vamos começar</HomeBtn>
+          <HomeBtn>Trocar de Contador</HomeBtn>
         </HomeInformation>
       </div>
     </HomeSection>

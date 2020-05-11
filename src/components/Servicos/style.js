@@ -1,52 +1,64 @@
 import styled from "styled-components";
 
-export const WorkSection = styled.div`
-  height: auto;
+export const ServicesSection = styled.div`
   padding: 50px 0;
   overflow: hidden;
   background: #f0f5fa;
 `;
-
-export const WorkTitle = styled.h2`
-  font-size: 30px;
-  margin-bottom: 4rem;
+export const ServicesRight = styled.div`
+  width: 45%;
+  float: right;
 `;
 
-export const Span = styled.span`
-  font-weight: normal;
-`;
-
-export const WorkPart = styled.div`
-  width: 21%;
+export const ServicesLeft = styled.div`
+  width: 45%;
   float: left;
-  height: 80px;
-  padding: 100px 0;
-  border-radius: 8px;
-  background: #fff;
-  box-shadow: 0px 0px 1em #b5b5b5;
-  -webkit-box-shadow: 0px 0px 1em #b5b5b5;
-  -moz-box-shadow: 0px 0px 1em #b5b5b5;
-  text-align: center;
-  margin-left: 5%;
-  margin-bottom: 4rem;
-  margin-left: ${(props) => (props.first === 1 ? "0" : "5%")};
 `;
 
-export const Icon = styled.i`
-  font-size: 35px;
-  color: #1e90ff;
-`;
-
-export const PartTitle = styled.h4`
-  font-size: 20px;
-  color: #1e90ff;
+export const ServicesDesc = styled.p`
+  font-size: 15px;
+  color: #888;
+  line-height: 1.5;
   margin-bottom: 20px;
+  text-align: justify;
 `;
 
-export const Line = styled.hr`
-  width: 60px;
-  height: 2px;
+export const ServicesBar = styled.div`
+  overflow: hidden;
+  padding: 10px 0;
+  margin-bottom: 10px;
+`;
+
+export const Title = styled.h2`
+  font-size: 28px;
+  color: #424242;
+`;
+
+export const SubTitle = styled.h3`
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #424242;
+`;
+
+export const Btn = styled.button`
   background: #1e90ff;
-  margin: auto;
-  border-radius: 5.5px;
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 50px;
+  line-height: 40px;
+  border-radius: 28px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-weight: bold;
+  &:hover {
+    background: #fff;
+    color: #1e90ff;
+    box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.07),
+      0 1px 7px 0 rgba(0, 0, 0, 0.02), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
+  }
 `;

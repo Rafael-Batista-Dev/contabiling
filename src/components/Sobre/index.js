@@ -26,21 +26,19 @@ const Sobre = () => {
             Sobre <Span>Nós</Span>
           </Title>
           <ActivityDesc>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-            praesentium blanditiis esse cupiditate, omnis similique. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit. Quos praesentium
-            blanditiis esse cupiditate, omnis similique. Lorem ipsum dolor sit
-            amet, consectetur adipisicing elit. Quos praesentium blanditiis esse
-            cupiditate, omnis similique. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Quos praesentium blanditiis esse cupiditate, omnis
-            similique.
+            Exitus é uma startup que oferece os serviços de um escritório de
+            contabilidade online a um preço reduzido. Online é a forma como
+            entregamos o serviço para os nossos clientes, mas as obrigações do
+            contador online são as mesmas de um contador de um escritório
+            tradicional.
           </ActivityDesc>
-          <SubTitle>Medidas Provisórias do Governo</SubTitle>
 
           <ActivityDesc>
-            A Caixa Econômica Federal e o Sebrae anunciaram nesta segunda-feira
-            (20) uma parceria para oferecer R$ 7,5 bilhões em crédito para
-            microempreendedores individuais (MEI), micro e pequenas empresas.
+            A contabilidade online é o resultado da união da contabilidade com a
+            tecnologia e com a paixão dos nossos contadores. A tecnologia já
+            mudou a forma como nos relacionamos com o transporte, com delivery e
+            até mesmo como nos comunicamos, nada mais natural que a
+            contabilidade também mude.
           </ActivityDesc>
         </Profile>
 

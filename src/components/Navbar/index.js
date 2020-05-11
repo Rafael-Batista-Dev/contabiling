@@ -8,6 +8,7 @@ import {
   UlList,
   ListItem,
   Anchor,
+  Btn,
 } from "./style.js";
 
 const NavBar = () => {
@@ -31,15 +32,15 @@ const NavBar = () => {
             <Anchor href="/portfolio">Portfolio</Anchor>
           </ListItem>
           <ListItem>
-            <Anchor href="/resumo">Resumo</Anchor>
-          </ListItem>
-          <ListItem>
             <Anchor href="/sobre">Sobre</Anchor>
           </ListItem>
           <ListItem>
             <Link className="anchor" to="/contato">
               Contato
             </Link>
+          </ListItem>
+          <ListItem>
+            <Btn>Login</Btn>
           </ListItem>
         </UlList>
       </div>

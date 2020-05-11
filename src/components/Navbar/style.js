@@ -41,3 +41,24 @@ export const Anchor = styled.a`
     color: #1e90ff;
   }
 `;
+
+export const Btn = styled.button`
+  background: #1e90ff;
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 45px;
+  line-height: 40px;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  &:hover {
+    background: #fff;
+    color: #1e90ff;
+    box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.07),
+      0 1px 7px 0 rgba(0, 0, 0, 0.02), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
+  }
+`;

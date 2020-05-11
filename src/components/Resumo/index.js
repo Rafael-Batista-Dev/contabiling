@@ -1,32 +1,20 @@
 import React from "react";
 
-import {
-  CreativeSection,
-  CreativeInfo,
-  Title,
-  InfoDesc,
-  InfoDir,
-  Span,
-} from "./style";
+import { CreativeSection, CreativeInfo, InfoDesc, InfoDir } from "./style";
 
 const Resumo = () => {
   return (
     <div class="creative">
       <CreativeSection>
         <CreativeInfo>
-          <Title>
-            <Span>Este somos</Span> Nós
-          </Title>
-          <InfoDir>Diretor Administrativo</InfoDir>
+          <InfoDir>Emissão e importação de Notas Fiscais</InfoDir>
           <InfoDesc>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim est
-            maxime quibusdam quaerat nihil aliquid aperiam deleniti, repellendus
-            dolorum. Possimus nisi cupiditate ad veritatis?
+            Realize a emissão das NFs pela plataforma da Contabilizei, com a
+            possibilidade de replicar notas recorrentes em apenas um clique.
           </InfoDesc>
           <InfoDesc>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim est
-            explicabo maxime quibusdam quaerat nihil aliquid aperiam deleniti,
-            repellendus dolorum. Possimus nisi cupiditate ad veritatis?
+            Se usar um emissor externo, você poderá importar as notas no final
+            de cada mês.
           </InfoDesc>
         </CreativeInfo>
       </CreativeSection>
