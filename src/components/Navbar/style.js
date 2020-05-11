@@ -32,7 +32,7 @@ export const ListItem = styled.li`
 
 export const Anchor = styled.a`
   display: block;
-  color: #222;
+  color: #424242;
   text-decoration: none;
   padding: 10px 15px;
   font-weight: bold;

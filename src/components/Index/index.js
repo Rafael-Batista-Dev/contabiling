@@ -6,6 +6,7 @@ import Resumo from "../../components/Resumo";
 import Portfolio from "../../components/Portfolio";
 import RedesSociais from "../../components/RedesSociais";
 import Trabalhos from "../../components/Trabalhos";
+import Contato from "../../components/Contato";
 import Footer from "../../components/Footer";
 
 export default class Index extends Component {
@@ -18,6 +19,7 @@ export default class Index extends Component {
         <Sobre />
         <Resumo />
         <RedesSociais />
+        <Contato />
         <Footer />
       </div>
     );

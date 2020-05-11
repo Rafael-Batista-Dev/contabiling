@@ -48,9 +48,12 @@ export const TextArea = styled.textarea`
 `;
 
 export const InputSubmit = styled(Input)`
-  width: 60%;
-  background: #fff;
-  border: 1px solid #ccc;
-  color: #888;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  padding: 1.5%;
+  background: #1e90ff;
+  font-weight: 600;
+  color: #fff;
   cursor: pointer;
 `;

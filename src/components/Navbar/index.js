@@ -20,7 +20,9 @@ const NavBar = () => {
 
         <UlList>
           <ListItem>
-            <Link to="/">Home</Link>
+            <Link className="anchor" to="/">
+              Home
+            </Link>
           </ListItem>
           <ListItem>
             <Anchor href="/trabalhos">Trabalhos</Anchor>
@@ -35,7 +37,9 @@ const NavBar = () => {
             <Anchor href="/sobre">Sobre</Anchor>
           </ListItem>
           <ListItem>
-            <Link to="/contato">Contato</Link>
+            <Link className="anchor" to="/contato">
+              Contato
+            </Link>
           </ListItem>
         </UlList>
       </div>

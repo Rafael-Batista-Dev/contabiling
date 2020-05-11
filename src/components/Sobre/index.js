@@ -1,4 +1,7 @@
 import React from "react";
+import Lottie from "react-lottie";
+
+import animationData from "../../assets/homeoffice.json";
 
 import {
   ProfileSection,
@@ -10,10 +13,6 @@ import {
   Activity,
   ActivityDesc,
   ActivityBar,
-  ActivityTitle,
-  ActivityPerc,
-  ActivityParent,
-  ParentSpan,
   Title,
 } from "./style";
 
@@ -23,8 +22,19 @@ const Sobre = () => {
       <div class="container">
         <Profile>
           <Title>
-            <Span>Sobre </Span> Nós
+            Sobre <Span>Nós</Span>
           </Title>
+          <ActivityDesc>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+            praesentium blanditiis esse cupiditate, omnis similique. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. Quos praesentium
+            blanditiis esse cupiditate, omnis similique. Lorem ipsum dolor sit
+            amet, consectetur adipisicing elit. Quos praesentium blanditiis esse
+            cupiditate, omnis similique. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Quos praesentium blanditiis esse cupiditate, omnis
+            similique.
+          </ActivityDesc>
+
           <ProfileList>
             <ProfileItem>
               <Span>Diretor</Span>
@@ -54,35 +64,21 @@ const Sobre = () => {
         </Profile>
 
         <Activity>
-          <Title>
-            Atividade <Span>Fiscais</Span>
-          </Title>
-          <ActivityDesc>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-            praesentium blanditiis esse cupiditate, omnis similique.
-          </ActivityDesc>
           <ActivityBar>
-            <ActivityTitle>NFE</ActivityTitle>
-            <ActivityPerc>100%</ActivityPerc>
-            <ActivityParent>
-              <ParentSpan></ParentSpan>
-            </ActivityParent>
-          </ActivityBar>
-
-          <ActivityBar>
-            <ActivityTitle>MFE</ActivityTitle>
-            <ActivityPerc>90%</ActivityPerc>
-            <ActivityParent>
-              <ParentSpan></ParentSpan>
-            </ActivityParent>
-          </ActivityBar>
-
-          <ActivityBar>
-            <ActivityTitle>SPEED FISCAL</ActivityTitle>
-            <ActivityPerc>80%</ActivityPerc>
-            <ActivityParent>
-              <ParentSpan></ParentSpan>
-            </ActivityParent>
+            <div className="lottie-json">
+              <Lottie
+                width={400}
+                height={400}
+                options={{
+                  loop: true,
+                  autoplay: true,
+                  animationData,
+                  rendererSettings: {
+                    preserveAspectRatio: "xMidYMid slice",
+                  },
+                }}
+              ></Lottie>
+            </div>
           </ActivityBar>
         </Activity>
       </div>

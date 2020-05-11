@@ -18,6 +18,7 @@ export const Span = styled.span`
   display: inline-block;
   width: 100px;
   font-weight: bold;
+  color: #4e5053;
 `;
 export const Web = styled.span`
   font-weight: normal;
@@ -42,30 +43,8 @@ export const ActivityBar = styled.div`
   margin-bottom: 10px;
 `;
 
-export const ActivityTitle = styled.span`
-  float: left;
-`;
-export const ActivityPerc = styled.span`
-  float: right;
-  margin-right: 100px;
-`;
-export const ActivityParent = styled.div`
-  height: 2px;
-  clear: both;
-  background: #f8f8f8;
-  position: relative;
-  top: 5px;
-`;
-export const ParentSpan = styled.span`
-  background: #1e90ff;
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  bottom: 0;
-`;
-
 export const Title = styled.h2`
   font-size: 40px;
   margin-bottom: 20px;
+  color: #424242;
 `;

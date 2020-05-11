@@ -48,10 +48,16 @@ export const HomeBtn = styled.button`
   background: #1e90ff;
   color: #fff;
   font-size: 18px;
-  border: 0;
-  border-radius: 4px;
-  padding: 15px;
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 50px;
+  line-height: 40px;
+  border-radius: 28px;
+  border: none;
   cursor: pointer;
+  transition: all 0.4s ease;
   font-weight: bold;
   &:hover {
     background: #fff;

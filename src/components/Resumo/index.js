@@ -16,9 +16,9 @@ const Resumo = () => {
       <CreativeSection>
         <CreativeInfo>
           <Title>
-            <Span>This is</Span> Me
+            <Span>Este somos</Span> Nós
           </Title>
-          <InfoDir>Creative Director</InfoDir>
+          <InfoDir>Diretor Administrativo</InfoDir>
           <InfoDesc>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim est{" "}
             <InfoLink href="!#">explicabo</InfoLink> maxime quibusdam quaerat

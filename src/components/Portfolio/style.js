@@ -61,13 +61,21 @@ export const OverlaySpan = styled.span`
   transform: translate(-50%, -50%);
 
   padding: 10px 20px;
+
   background: #1e90ff;
   color: #fff;
-  font-size: 18px;
-  border: 0;
-  border-radius: 4px;
-  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 30px;
+  border: none;
   cursor: pointer;
+  transition: all 0.4s ease;
   font-weight: bold;
   &:hover {
     background: #fff;
