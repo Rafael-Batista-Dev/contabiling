@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PortfolioSection = styled.div`
-  background: #f8f8f8;
+  background: #fff;
   padding-top: 20px;
   overflow: hidden;
 `;
@@ -80,5 +80,7 @@ export const OverlaySpan = styled.span`
   &:hover {
     background: #fff;
     color: #1e90ff;
+    box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.07),
+      0 1px 7px 0 rgba(0, 0, 0, 0.02), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
   }
 `;

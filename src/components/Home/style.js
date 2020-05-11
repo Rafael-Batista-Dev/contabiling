@@ -62,5 +62,7 @@ export const HomeBtn = styled.button`
   &:hover {
     background: #fff;
     color: #1e90ff;
+    box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.07),
+      0 1px 7px 0 rgba(0, 0, 0, 0.02), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
   }
 `;

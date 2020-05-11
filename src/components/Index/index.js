@@ -4,8 +4,9 @@ import Home from "../../components/Home";
 import Sobre from "../../components/Sobre";
 import Resumo from "../../components/Resumo";
 import Portfolio from "../../components/Portfolio";
+import Informativo from "../../components/Informativo";
 import RedesSociais from "../../components/RedesSociais";
-import Trabalhos from "../../components/Trabalhos";
+import Servicos from "../../components/Servicos";
 import Contato from "../../components/Contato";
 import Footer from "../../components/Footer";
 
@@ -14,10 +15,11 @@ export default class Index extends Component {
     return (
       <div>
         <Home />
-        <Trabalhos />
-        <Portfolio />
         <Sobre />
+        <Servicos />
+        <Portfolio />
         <Resumo />
+        <Informativo />
         <RedesSociais />
         <Contato />
         <Footer />

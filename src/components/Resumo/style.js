@@ -29,10 +29,10 @@ export const InfoDir = styled.h4`
 `;
 
 export const InfoDesc = styled.p`
-  color: #000;
-  margin-bottom: 15px;
-  line-height: 1.8;
-`;
-export const InfoLink = styled.a`
-  text-decoration: none;
+  font-size: 15px;
+  color: #888;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+  margin-right: 2rem;
 `;

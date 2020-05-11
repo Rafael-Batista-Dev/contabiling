@@ -25,7 +25,7 @@ const NavBar = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Anchor href="/trabalhos">Trabalhos</Anchor>
+            <Anchor href="/trabalhos">Serviços</Anchor>
           </ListItem>
           <ListItem>
             <Anchor href="/portfolio">Portfolio</Anchor>

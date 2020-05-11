@@ -6,7 +6,6 @@ import {
   Title,
   InfoDesc,
   InfoDir,
-  InfoLink,
   Span,
 } from "./style";
 
@@ -20,10 +19,9 @@ const Resumo = () => {
           </Title>
           <InfoDir>Diretor Administrativo</InfoDir>
           <InfoDesc>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim est{" "}
-            <InfoLink href="!#">explicabo</InfoLink> maxime quibusdam quaerat
-            nihil aliquid aperiam deleniti, repellendus dolorum. Possimus nisi
-            cupiditate ad veritatis?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim est
+            maxime quibusdam quaerat nihil aliquid aperiam deleniti, repellendus
+            dolorum. Possimus nisi cupiditate ad veritatis?
           </InfoDesc>
           <InfoDesc>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim est

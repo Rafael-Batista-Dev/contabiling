@@ -14,6 +14,7 @@ import {
   ActivityDesc,
   ActivityBar,
   Title,
+  SubTitle,
 } from "./style";
 
 const Sobre = () => {
@@ -34,33 +35,13 @@ const Sobre = () => {
             adipisicing elit. Quos praesentium blanditiis esse cupiditate, omnis
             similique.
           </ActivityDesc>
+          <SubTitle>Medidas Provisórias do Governo</SubTitle>
 
-          <ProfileList>
-            <ProfileItem>
-              <Span>Diretor</Span>
-              Lino
-            </ProfileItem>
-            <ProfileItem>
-              <Span>Fundação</Span>
-              02/3/1986
-            </ProfileItem>
-            <ProfileItem>
-              <Span>Endereço</Span>
-              Av. Universitária Nº 230
-            </ProfileItem>
-            <ProfileItem>
-              <Span>Telefone</Span>
-              (88) 3511 6006
-            </ProfileItem>
-            <ProfileItem>
-              <Span>Email</Span>
-              exitus@admin.com
-            </ProfileItem>
-            <ProfileItem>
-              <Span>Web</Span>
-              <Web>www.exitus.com</Web>
-            </ProfileItem>
-          </ProfileList>
+          <ActivityDesc>
+            A Caixa Econômica Federal e o Sebrae anunciaram nesta segunda-feira
+            (20) uma parceria para oferecer R$ 7,5 bilhões em crédito para
+            microempreendedores individuais (MEI), micro e pequenas empresas.
+          </ActivityDesc>
         </Profile>
 
         <Activity>

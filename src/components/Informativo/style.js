@@ -45,8 +45,8 @@ export const ActivityBar = styled.div`
 `;
 
 export const Title = styled.h2`
-  font-size: 40px;
-  margin-bottom: 20px;
+  font-size: 28px;
+  margin-bottom: 4rem;
   color: #424242;
 `;
 
@@ -54,4 +54,27 @@ export const SubTitle = styled.h3`
   font-size: 18px;
   margin-bottom: 20px;
   color: #424242;
+`;
+
+export const Btn = styled.button`
+  background: #1e90ff;
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 50px;
+  line-height: 40px;
+  border-radius: 28px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-weight: bold;
+  &:hover {
+    background: #fff;
+    color: #1e90ff;
+    box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.07),
+      0 1px 7px 0 rgba(0, 0, 0, 0.02), 0 3px 1px -1px rgba(0, 0, 0, 0.1);
+  }
 `;

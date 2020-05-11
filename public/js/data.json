@@ -2,20 +2,27 @@
   "works": [
     {
       "id": 1,
-      "icon_name": "icon fa fa-chain fa-2x",
-      "title": "SPEED FISCAL",
+      "icon_name": "icon fa fa-file-text-o fa-2x",
+      "title": "INVENTÁRIO",
       "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
     },
     {
       "id": 2,
-      "icon_name": "icon fa fa-bolt fa-2x",
-      "title": "SPEED FISCAL",
+      "icon_name": "icon fa fa-bar-chart fa-2x",
+      "title": "ESCRITA FISCAL",
       "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
     },
     {
       "id": 3,
       "icon_name": "icon fa fa-tachometer fa-2x",
       "title": "SPEED FISCAL",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+    },
+
+    {
+      "id": 4,
+      "icon_name": "icon fa fa-calculator fa-2x",
+      "title": "IMPOSTOS",
       "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
     }
   ],

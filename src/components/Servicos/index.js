@@ -9,10 +9,9 @@ import {
   Icon,
   PartTitle,
   Line,
-  PartDesc,
 } from "./style";
 
-class Trabalhos extends Component {
+class Serviços extends Component {
   state = {
     works: [],
   };
@@ -32,7 +31,6 @@ class Trabalhos extends Component {
           <Icon className={workItem.icon_name}></Icon>
           <PartTitle>{workItem.title}</PartTitle>
           <Line />
-          <PartDesc>{workItem.body}</PartDesc>
         </WorkPart>
       );
     });
@@ -43,6 +41,7 @@ class Trabalhos extends Component {
           <WorkTitle>
             <Span>Nossas</Span> Atividades
           </WorkTitle>
+
           {worksList}
         </div>
       </WorkSection>
@@ -50,4 +49,4 @@ class Trabalhos extends Component {
   }
 }
 
-export default Trabalhos;
+export default Serviços;
