@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Home from "../components/Home";
-import Sobre from "../components/Sobre";
+import Missao from "../components/Missao";
 import Resumo from "../components/Resumo";
 import Informativo from "../components/Informativo";
 import Servicos from "../components/Servicos";
@@ -13,7 +13,7 @@ export default class Index extends Component {
     return (
       <div>
         <Home />
-        <Sobre />
+        <Missao />
         <Servicos />
         <Resumo />
         <Informativo />

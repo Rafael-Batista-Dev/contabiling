@@ -21,8 +21,8 @@ const Controle = () => {
           <LottieBar>
             <div className="lottie-json">
               <Lottie
-                width={400}
-                height={400}
+                width={300}
+                height={300}
                 options={{
                   loop: true,
                   autoplay: true,

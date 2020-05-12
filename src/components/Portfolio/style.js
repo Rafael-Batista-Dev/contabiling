@@ -8,11 +8,13 @@ export const PortfolioSection = styled.div`
 
 export const PortfolioTitle = styled.h2`
   text-align: center;
-  font-size: 28px;
+  margin-bottom: 4rem;
 `;
 
 export const Span = styled.span`
-  font-weight: normal;
+  font-size: 28px;
+  font-weight: bold;
+  color: #424242;
 `;
 
 export const List = styled.ul`
@@ -59,9 +61,7 @@ export const OverlaySpan = styled.span`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   padding: 10px 20px;
-
   background: #1e90ff;
   color: #fff;
   font-size: 15px;

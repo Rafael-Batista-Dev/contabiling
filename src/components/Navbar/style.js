@@ -11,7 +11,7 @@ export const NavbarSection = styled.div`
 `;
 
 export const Logo = styled.div`
-  width: 50%;
+  width: 40%;
   float: left;
 `;
 export const LogoText = styled.h1`
@@ -20,7 +20,7 @@ export const LogoText = styled.h1`
 `;
 
 export const UlList = styled.ul`
-  width: 50%;
+  width: 60%;
   float: left;
   list-style: none;
   padding: 0;

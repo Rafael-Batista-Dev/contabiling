@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-export const SobreSection = styled.div`
-  padding: 8rem 0;
+export const ProfileSection = styled.div`
+  padding: 50px 0;
   overflow: hidden;
 `;
 export const Profile = styled.div`
-  width: 48%;
-  float: right;
+  width: 50%;
+  float: left;
 `;
 export const ProfileList = styled.ul`
   list-style: none;
@@ -34,24 +34,13 @@ export const Web = styled.span`
 `;
 
 export const Activity = styled.div`
-  width: 48%;
+  width: 50%;
   float: left;
 `;
 
-export const Desc = styled.p`
-  margin-top: 2rem;
-  font-size: 48px;
+export const ActivityDesc = styled.p`
+  font-size: 15px;
   color: #888;
-  line-height: 1.5;
-`;
-
-export const DescList = styled.ul`
-  list-style: none;
-`;
-
-export const DescItem = styled.li`
-  font-size: 16px;
-  color: #a4a4a4;
   line-height: 1.5;
   margin-bottom: 20px;
   text-align: justify;
@@ -71,12 +60,6 @@ export const Title = styled.h2`
 
 export const SubTitle = styled.h3`
   font-size: 18px;
-  margin-bottom: 20px;
-  color: #a4a4a4;
-`;
-
-export const SobreTitle = styled.h2`
-  font-size: 38px;
   margin-bottom: 20px;
   color: #a4a4a4;
 `;

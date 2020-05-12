@@ -1,16 +1,16 @@
 import React from "react";
-import Sobre from "../components/Sobre";
+import TrocaContador from "../components/TrocaContador";
 import Contato from "../components/Contato";
 import Footer from "../components/Footer";
 
-function SobreNos() {
+function TrocaCont() {
   return (
     <div>
-      <Sobre />
+      <TrocaContador />
       <Contato />
       <Footer />
     </div>
   );
 }
 
-export default SobreNos;
+export default TrocaCont;

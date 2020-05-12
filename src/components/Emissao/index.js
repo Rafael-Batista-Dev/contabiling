@@ -4,12 +4,12 @@ import Lottie from "react-lottie";
 import animationData from "../../assets/fiscal.json";
 
 import {
-  ProfileSection,
-  Profile,
+  EmissaoSection,
+  EmissaoRow,
   Span,
-  Activity,
-  ActivityDesc,
-  ActivityBar,
+  LottieRow,
+  EmisaoDesc,
+  LottieBar,
   Title,
   SubTitle,
   SpanContainer,
@@ -17,41 +17,38 @@ import {
 
 const Emissao = () => {
   return (
-    <ProfileSection>
+    <EmissaoSection>
       <div className="container">
-        <Profile>
-          <Title>Sobre Nós</Title>
-          <ActivityDesc>
-            Exitus é uma startup que oferece os serviços de um escritório de
-            contabilidade online a um preço reduzido. Online é a forma como
-            entregamos o serviço para os nossos clientes, mas as obrigações do
-            contador online são as mesmas de um contador de um escritório
-            tradicional.
-          </ActivityDesc>
+        <EmissaoRow>
+          <Title>Emissão de notas fiscais do jeito que você quis</Title>
+          <SubTitle>Importação automática:</SubTitle>
+          <EmisaoDesc>
+            Você emite suas notas fiscais pelo portal da Prefeitura e pronto.
+            Nós faremos a importação das notas e o cálculo dos seus impostos.
+          </EmisaoDesc>
 
-          <ActivityDesc>
-            A contabilidade online é o resultado da união da contabilidade com a
-            tecnologia e com a paixão dos nossos contadores. A tecnologia já
-            mudou a forma como nos relacionamos com o transporte, com delivery e
-            até mesmo como nos comunicamos, nada mais natural que a
-            contabilidade também mude.
-          </ActivityDesc>
-          <SpanContainer>
-            <SubTitle>ESPECIALISTAS</SubTitle>
-            <Span>450 +</Span>
-          </SpanContainer>
-          <SpanContainer>
-            <SubTitle>CLIENTES</SubTitle>
-            <Span>2.5 + K</Span>
-          </SpanContainer>
-          <SpanContainer>
-            <SubTitle>ESCRITÓRIOS</SubTitle>
-            <Span>FORTALEZA</Span>
-          </SpanContainer>
-        </Profile>
+          <SubTitle>Emissor gratuito:</SubTitle>
+          <EmisaoDesc>
+            Para as cidades liberadas, a emissão de notas fiscais podem ser
+            feitas pela nossa plataforma. Em até 2 cliques.
+          </EmisaoDesc>
 
-        <Activity>
-          <ActivityBar>
+          <SpanContainer>
+            <SubTitle>NFE</SubTitle>
+            <Span>15K +</Span>
+          </SpanContainer>
+          <SpanContainer>
+            <SubTitle>MDFE</SubTitle>
+            <Span>7.5K +</Span>
+          </SpanContainer>
+          <SpanContainer>
+            <SubTitle>MFE</SubTitle>
+            <Span>1.2K +</Span>
+          </SpanContainer>
+        </EmissaoRow>
+
+        <LottieRow>
+          <LottieBar>
             <div className="lottie-json">
               <Lottie
                 width={400}
@@ -66,10 +63,10 @@ const Emissao = () => {
                 }}
               ></Lottie>
             </div>
-          </ActivityBar>
-        </Activity>
+          </LottieBar>
+        </LottieRow>
       </div>
-    </ProfileSection>
+    </EmissaoSection>
   );
 };
 

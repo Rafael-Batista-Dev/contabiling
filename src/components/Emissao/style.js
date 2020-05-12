@@ -1,18 +1,12 @@
 import styled from "styled-components";
 
-export const ProfileSection = styled.div`
+export const EmissaoSection = styled.div`
   padding: 50px 0;
   overflow: hidden;
 `;
-export const Profile = styled.div`
+export const EmissaoRow = styled.div`
   width: 50%;
   float: left;
-`;
-export const ProfileList = styled.ul`
-  list-style: none;
-`;
-export const ProfileItem = styled.li`
-  margin-bottom: 8px;
 `;
 
 export const SpanContainer = styled.div`
@@ -33,12 +27,12 @@ export const Web = styled.span`
   color: #1e90ff;
 `;
 
-export const Activity = styled.div`
+export const LottieRow = styled.div`
   width: 50%;
   float: left;
 `;
 
-export const ActivityDesc = styled.p`
+export const EmisaoDesc = styled.p`
   font-size: 15px;
   color: #888;
   line-height: 1.5;
@@ -46,7 +40,7 @@ export const ActivityDesc = styled.p`
   text-align: justify;
 `;
 
-export const ActivityBar = styled.div`
+export const LottieBar = styled.div`
   overflow: hidden;
   padding: 10px 0;
   margin-bottom: 10px;

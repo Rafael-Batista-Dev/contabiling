@@ -40,8 +40,8 @@ const NavBar = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link className="anchor" to="/contato">
-              Contato
+            <Link className="anchor" to="/tracar-contador">
+              Trocar de Contador
             </Link>
           </ListItem>
           <ListItem>

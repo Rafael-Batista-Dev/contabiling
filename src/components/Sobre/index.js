@@ -1,75 +1,96 @@
 import React from "react";
-import Lottie from "react-lottie";
-
-import animationData from "../../assets/homeoffice.json";
 
 import {
-  ProfileSection,
+  SobreSection,
   Profile,
-  Span,
   Activity,
-  ActivityDesc,
+  Desc,
   ActivityBar,
   Title,
-  SubTitle,
-  SpanContainer,
+  SobreTitle,
+  DescList,
+  DescItem,
 } from "./style";
 
 const Sobre = () => {
   return (
-    <ProfileSection>
+    <SobreSection>
       <div className="container">
-        <Profile>
-          <Title>Sobre Nós</Title>
-          <ActivityDesc>
-            Exitus é uma startup que oferece os serviços de um escritório de
-            contabilidade online a um preço reduzido. Online é a forma como
-            entregamos o serviço para os nossos clientes, mas as obrigações do
-            contador online são as mesmas de um contador de um escritório
-            tradicional.
-          </ActivityDesc>
-
-          <ActivityDesc>
-            A contabilidade online é o resultado da união da contabilidade com a
-            tecnologia e com a paixão dos nossos contadores. A tecnologia já
-            mudou a forma como nos relacionamos com o transporte, com delivery e
-            até mesmo como nos comunicamos, nada mais natural que a
-            contabilidade também mude.
-          </ActivityDesc>
-          <SpanContainer>
-            <SubTitle>ESPECIALISTAS</SubTitle>
-            <Span>450 +</Span>
-          </SpanContainer>
-          <SpanContainer>
-            <SubTitle>CLIENTES</SubTitle>
-            <Span>2.5 + K</Span>
-          </SpanContainer>
-          <SpanContainer>
-            <SubTitle>ESCRITÓRIOS</SubTitle>
-            <Span>FORTALEZA</Span>
-          </SpanContainer>
-        </Profile>
-
         <Activity>
           <ActivityBar>
-            <div className="lottie-json">
-              <Lottie
-                width={400}
-                height={400}
-                options={{
-                  loop: true,
-                  autoplay: true,
-                  animationData,
-                  rendererSettings: {
-                    preserveAspectRatio: "xMidYMid slice",
-                  },
-                }}
-              ></Lottie>
-            </div>
+            <SobreTitle>Fazem a economia rodar.</SobreTitle>
+            <Desc>
+              “A nossa missão é democratizar a contabilidade para micro e
+              pequenas empresas de todo o Brasil."
+            </Desc>
           </ActivityBar>
         </Activity>
+
+        <Profile>
+          <Title>A nossa história.</Title>
+          <DescList>
+            <DescItem>
+              <i
+                style={{
+                  color: "#1e90ff",
+                  fontSize: "20px",
+                  marginRight: "1rem",
+                }}
+                className="fa fa-check"
+                aria-hidden="true"
+              ></i>
+              A Exitus nasceu do sonho de revolucionar uma área que ainda é
+              obscura para a maior parte dos empresários: a contabilidade. Como
+              empreendedores, nós nos perguntávamos se isso não poderia ser
+              diferente, mais simples, prático e fácil.
+            </DescItem>
+
+            <DescItem>
+              <i
+                style={{
+                  color: "#1e90ff",
+                  fontSize: "20px",
+                  marginRight: "1rem",
+                }}
+                className="fa fa-check"
+                aria-hidden="true"
+              ></i>
+              A nossa missão é democratizar a contabilidade para micro e
+              pequenas empresas de todo o Brasil.
+            </DescItem>
+
+            <DescItem>
+              <i
+                style={{
+                  color: "#1e90ff",
+                  fontSize: "20px",
+                  marginRight: "1rem",
+                }}
+                className="fa fa-check"
+                aria-hidden="true"
+              ></i>
+              Acreditamos e trabalhamos muito para realizar o sonho de
+              descomplicar a contabilidade e criar uma opção prática,
+              transparente e acessível para os empresários que fazem a economia
+              rodar.
+            </DescItem>
+
+            <DescItem>
+              <i
+                style={{
+                  color: "#1e90ff",
+                  fontSize: "20px",
+                  marginRight: "1rem",
+                }}
+                className="fa fa-check"
+                aria-hidden="true"
+              ></i>
+              A sua contabilidade pode ser mais simples e prática.
+            </DescItem>
+          </DescList>
+        </Profile>
       </div>
-    </ProfileSection>
+    </SobreSection>
   );
 };
 

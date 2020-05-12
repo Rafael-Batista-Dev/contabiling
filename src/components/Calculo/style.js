@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const CalcSection = styled.div`
-  padding: 50px 0;
+  padding: 12rem 0;
   overflow: hidden;
+  margin-bottom: -8rem;
 `;
 export const CalcContainer = styled.div`
   width: 50%;
@@ -13,7 +14,6 @@ export const CalcList = styled.ul`
 `;
 export const CalcItem = styled.li`
   font-size: 16px;
-  margin-bottom: 20px;
   color: #a4a4a4;
 `;
 
