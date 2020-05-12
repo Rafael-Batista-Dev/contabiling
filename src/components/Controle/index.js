@@ -1,7 +1,7 @@
 import React from "react";
 import Lottie from "react-lottie";
 
-import animationData from "../../assets/covid.json";
+import animationData from "../../assets/controle.json";
 
 import {
   ProfileSection,
@@ -14,7 +14,7 @@ import {
   Btn,
 } from "./style";
 
-const Sobre = () => {
+const Controle = () => {
   return (
     <ProfileSection>
       <div class="container">
@@ -22,8 +22,8 @@ const Sobre = () => {
           <ActivityBar>
             <div className="lottie-json">
               <Lottie
-                width={500}
-                height={500}
+                width={400}
+                height={400}
                 options={{
                   loop: true,
                   autoplay: true,
@@ -65,4 +65,4 @@ const Sobre = () => {
   );
 };
 
-export default Sobre;
+export default Controle;

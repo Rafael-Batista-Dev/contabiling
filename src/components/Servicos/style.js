@@ -47,6 +47,7 @@ export const Btn = styled.button`
   display: block;
   width: 50%;
   margin: 0 auto;
+  margin-top: 4rem;
   padding: 0 20px;
   height: 50px;
   line-height: 40px;

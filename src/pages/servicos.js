@@ -1,10 +1,21 @@
 import React from "react";
-import Servicos from "../components/Servicos";
+import Calculo from "../components/Calculo";
+import Controle from "../components/Controle";
+import Emissao from "../components/Emissao";
+
+import Footer from "../components/Footer";
 
 function Servico() {
   return (
     <div>
-      <Servicos />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Calculo />
+      <Controle />
+      <Emissao />
+      <Footer />
     </div>
   );
 }

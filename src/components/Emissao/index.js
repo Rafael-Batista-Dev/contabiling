@@ -1,7 +1,7 @@
 import React from "react";
 import Lottie from "react-lottie";
 
-import animationData from "../../assets/homeoffice.json";
+import animationData from "../../assets/fiscal.json";
 
 import {
   ProfileSection,
@@ -15,7 +15,7 @@ import {
   SpanContainer,
 } from "./style";
 
-const Sobre = () => {
+const Emissao = () => {
   return (
     <ProfileSection>
       <div className="container">
@@ -73,4 +73,4 @@ const Sobre = () => {
   );
 };
 
-export default Sobre;
+export default Emissao;

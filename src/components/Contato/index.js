@@ -1,6 +1,5 @@
 import React from "react";
 
-import Footer from "./../Footer";
 const Contato = () => {
   return (
     <React.Fragment>

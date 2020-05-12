@@ -8,7 +8,7 @@ export const PortfolioSection = styled.div`
 
 export const PortfolioTitle = styled.h2`
   text-align: center;
-  font-size: 35px;
+  font-size: 28px;
 `;
 
 export const Span = styled.span`

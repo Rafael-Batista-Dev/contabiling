@@ -1,24 +1,20 @@
 import styled from "styled-components";
 
-export const ProfileSection = styled.div`
+export const CalcSection = styled.div`
   padding: 50px 0;
   overflow: hidden;
 `;
-export const Profile = styled.div`
+export const CalcContainer = styled.div`
   width: 50%;
   float: left;
 `;
-export const ProfileList = styled.ul`
+export const CalcList = styled.ul`
   list-style: none;
 `;
-export const ProfileItem = styled.li`
-  margin-bottom: 8px;
-`;
-
-export const SpanContainer = styled.div`
-  display: inline-block;
-  float: left;
-  padding: 0 2rem 2rem;
+export const CalcItem = styled.li`
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #a4a4a4;
 `;
 
 export const Span = styled.span`
@@ -33,20 +29,20 @@ export const Web = styled.span`
   color: #1e90ff;
 `;
 
-export const Activity = styled.div`
+export const LottieSection = styled.div`
   width: 50%;
   float: left;
 `;
 
-export const ActivityDesc = styled.p`
-  font-size: 15px;
+export const CalcDesc = styled.p`
+  font-size: 18px;
   color: #888;
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 4rem;
   text-align: justify;
 `;
 
-export const ActivityBar = styled.div`
+export const LottieBar = styled.div`
   overflow: hidden;
   padding: 10px 0;
   margin-bottom: 10px;
@@ -54,12 +50,6 @@ export const ActivityBar = styled.div`
 
 export const Title = styled.h2`
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 4rem;
   color: #424242;
-`;
-
-export const SubTitle = styled.h3`
-  font-size: 18px;
-  margin-bottom: 20px;
-  color: #a4a4a4;
 `;

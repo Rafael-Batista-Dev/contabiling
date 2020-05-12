@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
 import Servicos from "./pages/Servicos";
 import Galeria from "./pages/Galeria";
 import SobreNos from "./pages/SobreNos";
-import ContatoNos from "./pages/ContatoNos";
 import Index from "./pages/";
 
 export default class App extends Component {
@@ -18,7 +17,6 @@ export default class App extends Component {
         <Route path="/servicos" component={Servicos} />
         <Route path="/galeria" component={Galeria} />
         <Route path="/sobre" component={SobreNos} />
-        <Route path="/contato" component={ContatoNos} />
       </BrowserRouter>
     );
   }

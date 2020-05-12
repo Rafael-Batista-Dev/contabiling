@@ -15,14 +15,13 @@ const Portfolios = () => {
   return (
     <PortfolioSection>
       <PortfolioTitle>
-        <Span>Nosso</Span> Portfólio
+        <Span>Nosso Portfólio</Span>
       </PortfolioTitle>
       <List>
-        <PortfolioItem active>Categoria 1</PortfolioItem>
-        <PortfolioItem>Categoria 2</PortfolioItem>
-        <PortfolioItem>Categoria 3</PortfolioItem>
-        <PortfolioItem>Categoria 4</PortfolioItem>
-        <PortfolioItem>Categoria 5</PortfolioItem>
+        <PortfolioItem active>Ferramentas</PortfolioItem>
+        <PortfolioItem>Estutura</PortfolioItem>
+        <PortfolioItem>Equipe</PortfolioItem>
+        <PortfolioItem>Eventos</PortfolioItem>
       </List>
 
       <div className="box">

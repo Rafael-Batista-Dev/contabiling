@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ProfileSection = styled.div`
   padding: 50px 0;
   overflow: hidden;
+  background: #f0f5fa;
 `;
 export const Profile = styled.div`
   width: 50%;

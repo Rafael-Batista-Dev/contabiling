@@ -1,6 +1,6 @@
 import React from "react";
 
-function Contato() {
+function ContatoNos() {
   return (
     <div>
       <h1>Contato</h1>
@@ -8,4 +8,4 @@ function Contato() {
   );
 }
 
-export default Contato;
+export default ContatoNos;

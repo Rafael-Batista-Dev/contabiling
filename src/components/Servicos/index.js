@@ -56,7 +56,9 @@ const Servicos = () => {
             e informações atualizadas.
           </ServicesDesc>
 
-          <Btn>Saiba mais</Btn>
+          <Btn>
+            Saiba mais <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </Btn>
         </ServicesRight>
       </div>
     </ServicesSection>
