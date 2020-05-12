@@ -11,7 +11,7 @@ import {
   OverlaySpan,
 } from "./style";
 
-const Portfolio = () => {
+const Portfolios = () => {
   return (
     <PortfolioSection>
       <PortfolioTitle>
@@ -86,4 +86,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Portfolios;

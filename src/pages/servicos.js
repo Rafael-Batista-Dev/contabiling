@@ -1,11 +1,12 @@
 import React from "react";
+import Servicos from "../components/Servicos";
 
-function Servicos() {
+function Servico() {
   return (
     <div>
-      <h1>Serviço</h1>
+      <Servicos />
     </div>
   );
 }
 
-export default Servicos;
+export default Servico;

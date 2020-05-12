@@ -30,18 +30,6 @@ export const ListItem = styled.li`
   display: inline-block;
 `;
 
-export const Anchor = styled.a`
-  display: block;
-  color: #424242;
-  text-decoration: none;
-  padding: 10px 15px;
-  font-weight: bold;
-
-  &:hover {
-    color: #1e90ff;
-  }
-`;
-
 export const Btn = styled.button`
   background: #1e90ff;
   color: #fff;

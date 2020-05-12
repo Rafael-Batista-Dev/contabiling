@@ -4,10 +4,10 @@ import "./App.css";
 
 import Navbar from "./components/Navbar";
 import Servicos from "./pages/Servicos";
-import Portifolio from "./pages/Portifolio";
-import Sobre from "./pages/Sobre";
-import Contato from "./pages/Contato";
-import Index from "./components/Index";
+import Galeria from "./pages/Galeria";
+import SobreNos from "./pages/SobreNos";
+import ContatoNos from "./pages/ContatoNos";
+import Index from "./pages/";
 
 export default class App extends Component {
   render() {
@@ -16,9 +16,9 @@ export default class App extends Component {
         <Navbar />
         <Route exact path="/" component={Index} />
         <Route path="/servicos" component={Servicos} />
-        <Route path="/portifolio" component={Portifolio} />
-        <Route path="/sobre" component={Sobre} />
-        <Route path="/contato" component={Contato} />
+        <Route path="/galeria" component={Galeria} />
+        <Route path="/sobre" component={SobreNos} />
+        <Route path="/contato" component={ContatoNos} />
       </BrowserRouter>
     );
   }

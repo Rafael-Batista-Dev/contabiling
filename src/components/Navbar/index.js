@@ -7,7 +7,6 @@ import {
   LogoText,
   UlList,
   ListItem,
-  Anchor,
   Btn,
 } from "./style.js";
 
@@ -26,13 +25,19 @@ const NavBar = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Anchor href="/trabalhos">Serviços</Anchor>
+            <Link className="anchor" to="/Servicos">
+              Serviços
+            </Link>
           </ListItem>
           <ListItem>
-            <Anchor href="/portfolio">Portfolio</Anchor>
+            <Link className="anchor" to="/galeria">
+              Portfolio
+            </Link>
           </ListItem>
           <ListItem>
-            <Anchor href="/sobre">Sobre</Anchor>
+            <Link className="anchor" to="/sobre">
+              Sobre
+            </Link>
           </ListItem>
           <ListItem>
             <Link className="anchor" to="/contato">

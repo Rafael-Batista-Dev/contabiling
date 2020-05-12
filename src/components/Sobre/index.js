@@ -6,10 +6,7 @@ import animationData from "../../assets/homeoffice.json";
 import {
   ProfileSection,
   Profile,
-  ProfileList,
-  ProfileItem,
   Span,
-  Web,
   Activity,
   ActivityDesc,
   ActivityBar,
@@ -20,7 +17,7 @@ import {
 const Sobre = () => {
   return (
     <ProfileSection>
-      <div class="container">
+      <div className="container">
         <Profile>
           <Title>
             Sobre <Span>Nós</Span>
