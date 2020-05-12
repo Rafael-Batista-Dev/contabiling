@@ -4,22 +4,21 @@ import Lottie from "react-lottie";
 import animationData from "../../assets/controle.json";
 
 import {
-  ProfileSection,
-  Profile,
-  Activity,
-  ActivityDesc,
-  ActivityBar,
+  ControlSection,
+  ControlRow,
+  LottieRow,
+  ControlDesc,
+  LottieBar,
   Title,
   SubTitle,
-  Btn,
 } from "./style";
 
 const Controle = () => {
   return (
-    <ProfileSection>
+    <ControlSection>
       <div class="container">
-        <Activity>
-          <ActivityBar>
+        <LottieRow>
+          <LottieBar>
             <div className="lottie-json">
               <Lottie
                 width={400}
@@ -34,34 +33,28 @@ const Controle = () => {
                 }}
               ></Lottie>
             </div>
-          </ActivityBar>
-        </Activity>
-        <Profile>
-          <Title>Tudo sobre Coronavírus</Title>
+          </LottieBar>
+        </LottieRow>
 
-          <SubTitle>Medidas Provisórias do Governo</SubTitle>
+        <ControlRow>
+          <Title>Controle de movimentação financeira</Title>
 
-          <ActivityDesc>
-            A Caixa Econômica Federal e o Sebrae anunciaram nesta segunda-feira
-            (20) uma parceria para oferecer R$ 7,5 bilhões em crédito para
-            microempreendedores individuais (MEI), micro e pequenas empresas. A
-            medida é um auxílio para essas empresas em meio à pandemia do novo
-            coronavírus, que paralisou serviços e negócios
-          </ActivityDesc>
-          <SubTitle>O que Muda para sua Empresa</SubTitle>
+          <SubTitle>Plataforma intuitiva e fácil de usar:</SubTitle>
 
-          <ActivityDesc>
-            A reforma tributária do coronavírus: como a pandemia mudou (e ainda
-            pode mudar) os impostos
-          </ActivityDesc>
+          <ControlDesc>
+            Emissor de notas gratuito, controle de impostos e muito mais.
+          </ControlDesc>
+          <SubTitle>Conte com a gente:</SubTitle>
 
-          <Btn>
-            Saiba mais sobre o COVID-19{" "}
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-          </Btn>
-        </Profile>
+          <ControlDesc>
+            Suporte e atendimento para quando você precisar.
+          </ControlDesc>
+
+          <SubTitle>Economia real: </SubTitle>
+          <ControlDesc>Planos a partir de R$89/mês.</ControlDesc>
+        </ControlRow>
       </div>
-    </ProfileSection>
+    </ControlSection>
   );
 };
 
