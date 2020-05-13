@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Lottie from "react-lottie";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import animationData from "../../assets/emissao.json";
 
@@ -15,6 +17,9 @@ import {
 } from "./style";
 
 const Calculo = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <CalcSection>
       <div className="container">
@@ -25,7 +30,7 @@ const Calculo = () => {
             plataforma.
           </CalcDesc>
 
-          <CalcDesc>
+          <CalcDesc data-aos="fade-right">
             <CalcList>
               <CalcItem>
                 <i
@@ -55,7 +60,7 @@ const Calculo = () => {
           </CalcDesc>
         </CalcContainer>
 
-        <LottieSection>
+        <LottieSection data-aos="fade-left">
           <LottieBar>
             <div className="lottie-json">
               <Lottie

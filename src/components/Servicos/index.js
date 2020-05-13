@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import {
   ServicesSection,
@@ -12,8 +14,11 @@ import {
 } from "./style";
 
 const Servicos = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <ServicesSection>
+    <ServicesSection data-aos="fade-down">
       <div class="container">
         <Title>Serviços da Exitus</Title>
         <ServicesLeft>

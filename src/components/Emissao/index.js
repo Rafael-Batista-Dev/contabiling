@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Lottie from "react-lottie";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import animationData from "../../assets/fiscal.json";
 
@@ -16,8 +18,11 @@ import {
 } from "./style";
 
 const Emissao = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <EmissaoSection>
+    <EmissaoSection data-aos="fade-down">
       <div className="container">
         <EmissaoRow>
           <Title>Emissão de notas fiscais do jeito que você quis</Title>

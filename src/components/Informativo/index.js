@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Lottie from "react-lottie";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import animationData from "../../assets/covid.json";
 
@@ -15,10 +17,13 @@ import {
 } from "./style";
 
 const Sobre = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <ProfileSection>
       <div class="container">
-        <Activity>
+        <Activity data-aos="fade-right">
           <ActivityBar>
             <div className="lottie-json">
               <Lottie
@@ -36,7 +41,7 @@ const Sobre = () => {
             </div>
           </ActivityBar>
         </Activity>
-        <Profile>
+        <Profile data-aos="fade-left">
           <Title>Tudo sobre Coronavírus</Title>
 
           <SubTitle>Medidas Provisórias do Governo</SubTitle>

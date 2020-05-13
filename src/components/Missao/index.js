@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Lottie from "react-lottie";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import animationData from "../../assets/homeoffice.json";
 
@@ -16,10 +18,13 @@ import {
 } from "./style";
 
 const Missao = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <ProfileSection>
       <div className="container">
-        <Profile>
+        <Profile data-aos="fade-right">
           <Title>Missão</Title>
           <ActivityDesc>
             Exitus é uma startup que oferece os serviços de um escritório de
@@ -50,7 +55,7 @@ const Missao = () => {
           </SpanContainer>
         </Profile>
 
-        <Activity>
+        <Activity data-aos="fade-left">
           <ActivityBar>
             <div className="lottie-json">
               <Lottie

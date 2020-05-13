@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Lottie from "react-lottie";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import animationData from "../../assets/controle.json";
 
@@ -14,10 +16,13 @@ import {
 } from "./style";
 
 const Controle = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <ControlSection>
       <div class="container">
-        <LottieRow>
+        <LottieRow data-aos="fade-right">
           <LottieBar>
             <div className="lottie-json">
               <Lottie
@@ -36,7 +41,7 @@ const Controle = () => {
           </LottieBar>
         </LottieRow>
 
-        <ControlRow>
+        <ControlRow data-aos="fade-left">
           <Title>Controle de movimentação financeira</Title>
 
           <SubTitle>Plataforma intuitiva e fácil de usar:</SubTitle>

@@ -35,7 +35,7 @@ export const Btn = styled.button`
   color: #fff;
   font-size: 18px;
   display: block;
-  width: 30%;
+  width: 90%;
   margin: 0 auto;
   margin-top: 1rem;
   padding: 0 20px;
