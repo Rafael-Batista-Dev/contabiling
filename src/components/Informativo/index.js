@@ -57,7 +57,11 @@ const Sobre = () => {
 
           <Btn>
             Saiba mais sobre o COVID-19{" "}
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <i
+              style={{ marginLeft: "10px" }}
+              class="fa fa-arrow-right"
+              aria-hidden="true"
+            ></i>
           </Btn>
         </Profile>
       </div>

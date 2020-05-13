@@ -5,38 +5,28 @@ export const ServicesSection = styled.div`
   overflow: hidden;
   background: #f0f5fa;
 `;
-export const ServicesRight = styled.div`
-  width: 45%;
-  float: right;
+export const FormRow = styled.div`
+  width: 50%;
+  margin: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1em #bdbdbd;
+  -webkit-box-shadow: 0px 0px 1em #bdbdbd;
+  -moz-box-shadow: 0px 0px 1em #bdbdbd;
 `;
 
-export const ServicesLeft = styled.div`
-  width: 45%;
-  float: left;
+export const FormContainer = styled.div`
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
 `;
 
-export const ServicesDesc = styled.p`
-  font-size: 15px;
-  color: #888;
-  line-height: 1.5;
-  margin-bottom: 20px;
-  text-align: justify;
-`;
-
-export const ServicesBar = styled.div`
-  overflow: hidden;
-  padding: 10px 0;
-  margin-bottom: 10px;
-`;
-
-export const Title = styled.h2`
+export const Title = styled.h1`
   font-size: 28px;
-  color: #424242;
-`;
-
-export const SubTitle = styled.h3`
-  font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 4rem;
+  text-align: center;
   color: #424242;
 `;
 
@@ -45,9 +35,9 @@ export const Btn = styled.button`
   color: #fff;
   font-size: 18px;
   display: block;
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 1rem;
   padding: 0 20px;
   height: 50px;
   line-height: 40px;

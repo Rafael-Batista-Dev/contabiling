@@ -57,7 +57,12 @@ const Servicos = () => {
           </ServicesDesc>
 
           <Btn>
-            Saiba mais <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Saiba mais{" "}
+            <i
+              style={{ marginLeft: "10px" }}
+              class="fa fa-arrow-right"
+              aria-hidden="true"
+            ></i>
           </Btn>
         </ServicesRight>
       </div>

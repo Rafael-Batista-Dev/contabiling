@@ -15,7 +15,7 @@ const NavBar = () => {
     <NavbarSection>
       <div className="container">
         <Logo>
-          <LogoText>Exitus Contabilidade</LogoText>
+          <LogoText>Exitus Contábeis</LogoText>
         </Logo>
 
         <UlList>

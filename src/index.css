@@ -93,6 +93,30 @@ h5 {
 
 /*-- Text --*/
 
+.form-container input {
+  font-size: 14px;
+  width: 86%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #1e90ff;
+  color: #999;
+  outline: none;
+  box-shadow: none;
+}
+
+.group {
+  width: 90%;
+  display: flex;
+}
+
+.group input + input {
+  margin-left: 20px;
+}
+
 .nb-form p {
   font-size: 13px;
   margin: 0;
@@ -115,13 +139,14 @@ h5 {
   font-size: 14px;
   width: 254px;
   max-width: 254px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   padding: 6px;
-  border-color: #afcdeb;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 4px;
-  border: 0;
+  border-color: #1e90ff;
   color: #999;
-  border-bottom: 1px solid #f0f0f0;
+  resize: none;
 }
 
 .nb-form input:focus,
