@@ -8,6 +8,7 @@ export const ServicesSection = styled.div`
 export const FormRow = styled.div`
   width: 50%;
   margin: auto;
+  margin-top: -2.2rem;
   background: #fff;
   padding: 40px;
   border-radius: 8px;

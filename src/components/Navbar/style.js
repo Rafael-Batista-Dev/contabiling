@@ -21,7 +21,8 @@ export const LogoText = styled.h1`
 
 export const UlList = styled.ul`
   width: 60%;
-  float: left;
+  float: right;
+  margin-right: -6rem;
   list-style: none;
   padding: 0;
 `;
