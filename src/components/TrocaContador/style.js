@@ -5,6 +5,13 @@ export const ServicesSection = styled.div`
   overflow: hidden;
   background: #f0f5fa;
 `;
+export const HeadForm = styled.div`
+  background: #1e90ff;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  height: 80px;
+`;
+
 export const FormRow = styled.div`
   width: 50%;
   margin: auto;
@@ -26,9 +33,9 @@ export const FormContainer = styled.div`
 
 export const Title = styled.h1`
   font-size: 28px;
-  margin-bottom: 4rem;
+  padding: 20px;
   text-align: center;
-  color: #424242;
+  color: #fff;
 `;
 
 export const Btn = styled.button`

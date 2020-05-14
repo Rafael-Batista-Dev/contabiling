@@ -25,7 +25,7 @@ const NavBar = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link className="anchor" to="/Servicos">
+            <Link className="anchor" to="/servicos">
               Serviços
             </Link>
           </ListItem>

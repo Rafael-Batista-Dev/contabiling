@@ -2,7 +2,14 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import { ServicesSection, FormRow, FormContainer, Title, Btn } from "./style";
+import {
+  ServicesSection,
+  HeadForm,
+  FormRow,
+  FormContainer,
+  Title,
+  Btn,
+} from "./style";
 
 const TrocaContador = () => {
   useEffect(() => {
@@ -12,7 +19,10 @@ const TrocaContador = () => {
     <ServicesSection data-aos="fade-down">
       <div class="container">
         <FormRow>
-          <Title>Abertura de empresa</Title>
+          <HeadForm>
+            <Title>Nosso contador</Title>
+          </HeadForm>
+
           <FormContainer>
             <form className="form-container">
               <input type="text" placeholder="Nome Fantacia" />
