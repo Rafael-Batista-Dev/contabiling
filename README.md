@@ -22,7 +22,7 @@
 Esta aplicação consiste, em dar uma identidade e presença virtual ao um escritório de contabilidade.
 
 <p align="center">
-  <img alt="exitus" src="https://"> 
+  <img alt="exitus" src="https://github.com/Rafael-Batista-Dev/contabiling/blob/master/src/assets/exitus.gif"> 
 <p>
 <p>&nbsp;&nbsp;</p>
 ## :loudspeaker: Technologies
