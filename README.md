@@ -7,7 +7,10 @@
 </h4>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> 
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+	<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Rafael-Batista-Dev/contabiling">
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Rafael-Batista-Dev/contabiling">
+	<img alt="node-current" src="https://img.shields.io/node/v/package">
 <p>
 
 <p align="center">
