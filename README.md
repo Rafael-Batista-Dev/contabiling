@@ -78,8 +78,6 @@ Feito com ❤️ por Rafael Batista 👋🏽 [Entre em contato!](www.linkedin.co
 
 [nodejs]: https://nodejs.org/
 [reactjs]: https://reactjs.org
-[reactnative]: https://reactnative.org
-[expor]: https://expor.org
 [yarn]: https://yarnpkg.com/
 [vscode]: https://code.visualstudio.com/
 [vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
