@@ -24,16 +24,17 @@
 
 Esta aplicação consiste, em dar uma identidade e presença virtual ao um escritório de contabilidade.
 
-<p align="center">
-  <img alt="exitus" src="https://github.com/Rafael-Batista-Dev/contabiling/blob/master/src/assets/exitus.gif"> 
-<p>
-<p>&nbsp;&nbsp;</p>
-## :loudspeaker: Technologies
 
-Este projeto foi desenvolvido com as seguintes tecnologias:
+<p align="center" width= '100%'>
+<img alt="MarvelQuiz" title="#MarvelQuiz" src="https://github.com/Rafael-Batista-Dev/contabiling/blob/master/src/assets/exitus.gif" />
+</p>
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
+- [React.js](https://reactjs.org)
 
 ✔ Aos
 ✔ ReactJS
@@ -41,16 +42,48 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ✔ React-router-dom
 ✔ Styled-components
 
-### 🔗 Minhas redes sociais
+## 🚀 Como rodar este projeto
 
-<p align="center">
+Este projeto considerar apenas em uma parte:
 
-Rafael batista – [@Linkedin](https://www.linkedin.com/in/rafael-batista-dev/)
-<br/>
-✉️ E-mail – rafaelbatista.sth@gmail.com
-<br/>
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js][nodejs].
+Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
+
+### 🎲 Rodando o Projeto
+
+```bash
+# Clone este repositório
+$ https://github.com/Rafael-Batista-Dev/contabiling
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd contabiling
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm start OU yarn start
+
+## 📝 Licença
+
+Este projeto esta sobe a licença MIT. Veja a [LICENÇA](license) para saber mais.
+
+Feito com ❤️ por Rafael Batista 👋🏽 [Entre em contato!](www.linkedin.com/in/rafa-dev)
+
+:email: dev.rafaelbatista@gmail.com
 :octocat: Github –[https://github.com/](https://github.com/Rafael-Batista-Dev)
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
-
-</p>
+[nodejs]: https://nodejs.org/
+[reactjs]: https://reactjs.org
+[reactnative]: https://reactnative.org
+[expor]: https://expor.org
+[yarn]: https://yarnpkg.com/
+[vscode]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[license]: https://opensource.org/licenses/MIT
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+```
