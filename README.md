@@ -1,7 +1,7 @@
 <center>
-<h4 align="center"> 
-	👨‍💻 exitus contabeis
-</h4>
+<h1 align="center"> 
+	Exitus Contábeis
+</h1>
 <h4 align="center"> 
 	💻 Site elegante para um escritório de contabilidade 💻
 </h4>
@@ -18,7 +18,6 @@
   Tecnologias |
   Licença
 </p>
-<p>&nbsp;&nbsp;</p>
 
 ## 💻 Exitus Contábeis
 
